@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Result {
 
-  /* WGET 정의된 응답코드 */
+  /* WGP 정의된 응답코드 */
   private String resultCd;
 
   /* 실패 사유 */
