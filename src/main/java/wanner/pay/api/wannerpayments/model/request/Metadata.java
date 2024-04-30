@@ -1,5 +1,6 @@
 package wanner.pay.api.wannerpayments.model.request;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -17,8 +18,8 @@ public class Metadata {
   private boolean cardAuth;
 
   /* 카드 비밀번호 앞 2자리 */
-  private String authPw;
+  @NotBlank private String authPw;
 
   /* 카드 소유주 생년 월일 ( YYMMDD )*/
-  private String authDob;
+  @NotBlank private String authDob;
 }

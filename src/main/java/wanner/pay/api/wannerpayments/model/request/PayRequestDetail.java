@@ -34,11 +34,11 @@ public class PayRequestDetail {
   /* 구매 상품 리스트 */
   @NotNull private List<Product> products;
 
-  /* 거래 타입 Default = ONTO */
+  /* 거래 타입 Default = ONTR */
   private String trxType;
 
-  /* 가맹점 주문번호 */
-  @NotBlank private String trackId;
+  /* 가맹점에서 생성한 중복되지 않는` 번호 */
+  private String trackId;
 
   /* 결제 금액 */
   private long amount;
