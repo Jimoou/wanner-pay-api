@@ -11,7 +11,7 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Refund {
+public class RefundDetail {
 
   /* 원거래에 대한 윈글로벌페이 거래번호 */
   private String rootTrxId;

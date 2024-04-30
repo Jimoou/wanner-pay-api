@@ -33,4 +33,7 @@ public class CardRequest {
 
   /* 할부 기간 */
   @NotNull private Integer installment;
+
+  /* 카드 추가 정보 */
+  @NotNull private Metadata metadata;
 }

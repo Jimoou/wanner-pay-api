@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
-import wanner.pay.api.wannerpayments.model.common.Refund;
 import wanner.pay.api.wannerpayments.model.request.PayRequest;
+import wanner.pay.api.wannerpayments.model.request.RefundRequest;
 import wanner.pay.api.wannerpayments.service.PaymentService;
 
 @RestController
@@ -24,7 +24,7 @@ public class PaymentsController {
   }
 
   @PostMapping("/refund")
-  public Mono<ResponseEntity<?>> paymentRefund(@RequestBody Refund paymentRequest) {
+  public Mono<ResponseEntity<?>> paymentRefund(@RequestBody RefundRequest paymentRequest) {
     return paymentService.paymentRefund(paymentRequest);
   }
 }
