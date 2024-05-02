@@ -22,12 +22,10 @@ public class Product {
   @NotBlank private String name;
 
   /* 구매 수량 */
-  @NotNull
-  private Integer qty;
+  @NotNull private Integer qty;
 
   /* 상품 가격 */
-  @NotNull
-  private Integer price;
+  @NotNull private Integer price;
 
   /* 상세 설명 */
   private String desc;
