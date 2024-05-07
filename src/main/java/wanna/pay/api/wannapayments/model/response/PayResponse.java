@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.model.response;
+package wanna.pay.api.wannapayments.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

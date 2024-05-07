@@ -1,9 +1,9 @@
-package wanner.pay.api.wannerpayments.model.response;
+package wanna.pay.api.wannapayments.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import wanner.pay.api.wannerpayments.model.common.RefundDetail;
+import wanna.pay.api.wannapayments.model.common.RefundDetail;
 
 @Getter
 @AllArgsConstructor

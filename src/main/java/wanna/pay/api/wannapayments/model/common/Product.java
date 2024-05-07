@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.model.common;
+package wanna.pay.api.wannapayments.model.common;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -22,7 +22,7 @@ public class Product {
   @NotBlank private String name;
 
   /* 구매 수량 */
-  @NotNull private Integer qty;
+  private Integer qty = 1;
 
   /* 상품 가격 */
   @NotNull private Integer price;

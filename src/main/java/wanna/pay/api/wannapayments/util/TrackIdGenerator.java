@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.util;
+package wanna.pay.api.wannapayments.util;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

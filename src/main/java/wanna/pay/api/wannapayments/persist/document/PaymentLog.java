@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.persist.document;
+package wanna.pay.api.wannapayments.persist.document;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import wanner.pay.api.wannerpayments.model.response.Result;
+import wanna.pay.api.wannapayments.model.response.Result;
 
 @Getter
 @Setter

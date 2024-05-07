@@ -1,10 +1,10 @@
-package wanner.pay.api.wannerpayments;
+package wanna.pay.api.wannapayments;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WannerPaymentsApplicationTests {
+class WannaPaymentsApplicationTests {
 
 	@Test
 	void contextLoads() {

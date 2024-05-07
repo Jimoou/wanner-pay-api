@@ -1,11 +1,11 @@
-package wanner.pay.api.wannerpayments.model.response;
+package wanna.pay.api.wannapayments.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import wanner.pay.api.wannerpayments.model.common.Product;
+import wanna.pay.api.wannapayments.model.common.Product;
 
 import java.util.List;
 

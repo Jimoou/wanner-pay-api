@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.model.request;
+package wanna.pay.api.wannapayments.model.request;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import wanner.pay.api.wannerpayments.model.common.RefundDetail;
+import wanna.pay.api.wannapayments.model.common.RefundDetail;
 
 @Getter
 @Setter

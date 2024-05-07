@@ -1,4 +1,4 @@
-package wanner.pay.api.wannerpayments.config;
+package wanna.pay.api.wannapayments.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
